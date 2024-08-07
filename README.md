@@ -1,6 +1,6 @@
 # Data Engineering Project  
 
-The goal of the Data Engineering project is to collect and organize data.
+The goal of the Data Engineering project is to collect and organize data. This project scrapes book data from a website and stores it in a MySQL database.
 
 ## Context
 
@@ -17,6 +17,22 @@ Therefore it´s necessary to collect, store and organize the data from the websi
 
 The data to be collected and stored is available on this website: http://books.toscrape.com/
 This website was developed and made available especially for practicing web scraping. There are no legal problems when collecting the data
+
+## Prerequisites
+
+- Python 3.x
+- MySQL Server
+- Google Chrome browser
+
+## Install the required Python packages
+
+pip install beautifulsoup4 
+pip install lxml 
+pip install mysql-connector-python 
+pip install requests 
+pip install selenium 
+pip install webdriver-manager
+
 
 ## License
 This project is licensed under the MIT License.
